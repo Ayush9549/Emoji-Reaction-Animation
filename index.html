@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="container1">
+				<div class="header">
+					<div class="header-txt">AWFUL</div>
+				</div><br>
+				<div class="center"><img src="https://emojis.wiki/emoji-pics/apple/pouting-face-apple.png"></div>
+				<div class="bar">
+					<div class="circle"></div>
+					<div class="box1 box"></div>
+					<div class="box2 box"></div>
+					<div class="box3 box"></div>
+					<div class="box4 box"></div>
+					<!-- points -->
+					<div class="point1 point"></div>
+					<div class="point2 point"></div>
+					<div class="point3 point"></div>
+					<div class="point4 point"></div>
+					<div class="point5 point"></div>
+				</div><br>
+				<div class="footer">
+					<div class="text">I'm feeling <span>awful</span></div>
+					<div class="sv-btn">SAVE</div>
+				</div><br>
+			</div>
+		</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	<script>
+		$(".point1").on("click",function(){
+			$(".circle").animate({"left":"0%"});
+			$(".header-txt").animate({"height":"0px"},500,function(){$(".header-txt").animate({"height":"40px"}).text("AWFUL")}).css({"color": "rgb(251, 155, 107)"});
+			$("span").animate({"height":"0px"},500,function(){$("span").animate({"height":"15px"}).text("awful")}).css({"color":"rgb(245, 152, 102)"});
+			$(".center>img").attr('src','./assets/img/awful.png').animate({"width":"95%","height":"95%","margin":"0px 0 0 0px"},function(){$(".center>img").animate({"width":"100%","height":"100%","margin":"0 0 0 0px"});});
+			$(".container1").css({"background":"linear-gradient(rgb(248, 127, 72),rgb(230, 104, 46),rgb(218, 92, 33))"});
+			$(".box").css({"background":"rgb(232, 136, 86)"});
+			$(".point").css({"background":"rgb(230, 104, 46)"});
+			$(".sv-btn").css({"background":"rgb(218, 92, 33)"})
+		});
+		$(".point2").on("click",function(){
+			$(".circle").animate({"left":"20%"});
+			$(".header-txt").animate({"height":"0px"},500,function(){$(".header-txt").animate({"height":"40px"}).text("BAD")}).css({"color":"rgb(239,171,111)"});
+			$("span").animate({"height":"0px"},500,function(){$("span").animate({"height":"15px"}).text("bad")}).css({"color":"rgb(249,173,77)"});
+			$(".center>img").attr('src','./assets/img/bad.png').animate({"width":"95%","height":"95%","margin":"2"},function(){$(".center>img").animate({"width":"100%","height":"100%","margin":"0"});});
+			$(".container1").css({"background":"linear-gradient(rgb(237, 150, 73),rgb(214, 120, 42),rgb(208, 111, 34))"});
+			$(".box").css({"background":"rgb(220, 147, 87)"});
+			$(".point").css({"background":"rgb(214, 120, 42)"});
+			$(".sv-btn").css({"background":"rgb(208, 111, 34)"})
+		});
+
+		$(".point3").on("click",function(){
+			$(".circle").animate({"left":"46%"});
+			$(".header-txt").animate({"height":"0px"},500,function(){$(".header-txt").animate({"height":"40px"}).text("OKAY")}).css({"color":"rgb(240,184,100)"});
+			$("span").animate({"height":"0px"},500,function(){$("span").animate({"height":"15px"}).text("okay")}).css({"color":"rgb(249,173,77)"});
+			$(".center>img").attr('src','./assets/img/okay.png').animate({"width":"95%","height":"95%","margin":"3px 0 0 3px"},1000,function(){$(".center>img").animate({"width":"100%","height":"100%","margin":"0px 0 0 1px"});});
+			$(".container1").css({"background":"linear-gradient(rgb(239, 154, 76),rgb(223, 131, 53),rgb(206, 110, 33))"});
+			$(".box").css({"background":"rgb(223, 163, 81)"});
+			$(".point").css({"background":"rgb(223, 131, 53)"});
+			$(".sv-btn").css({"background":"rgb(206, 110, 33)"})
+		});
+
+		$(".point4").on("click",function(){
+			$(".circle").animate({"left":"72%"});
+			$(".header-txt").animate({"height":"0px"},500,function(){$(".header-txt").animate({"height":"40px"}).text("GOOD")}).css({"color":"rgb(245,212,115)"});
+			$("span").animate({"height":"0px"},500,function(){$("span").animate({"height":"15px"}).text("good")}).css({"color":"rgb(249,173,77)"});
+			$(".center>img").attr('src','./assets/img/good.png').animate({"width":"95%","height":"95%","margin":"3px 2px 0 0px"},function(){$(".center>img").animate({"width":"100%","height":"100%","margin":"0 0 0 0px"});});
+			$(".container1").css({"background":"linear-gradient(rgb(243, 201, 74),rgb(224, 168, 50),rgb(208, 111, 34))"});
+			$(".box").css({"background":"rgb(227, 180, 90)"});
+			$(".point").css({"background":"rgb(224, 168, 50)"});
+			$(".sv-btn").css({"background":"rgb(208, 111, 34)"})
+		});
+
+		$(".point5").on("click",function(){
+			$(".circle").animate({"left":"96%"});
+			$(".header-txt").animate({"height":"0px"},500,function(){$(".header-txt").animate({"height":"40px"}).text("GREAT")}).css({"color":"rgb(177,203,120)"});
+			$("span").animate({"height":"0px"},500,function(){$("span").animate({"height":"15px"}).text("great")}).css({"color":"rgb(205,255,134)"});
+			$(".center>img").attr('src','./assets/img/great.png').animate({"width":"95%","height":"95%","margin":"2px 0 0 2px"},1000,function(){$(".center>img").animate({"width":"100%","height":"100%","margin":"0px 0 0 -1px"});});
+			$(".container1").css({"background":"linear-gradient(rgb(152, 188, 78),rgb(134, 181, 84),rgb(120, 176, 87))"});
+			$(".box").css({"background":"rgb(154, 196, 127)"});
+			$(".point").css({"background":"rgb(134, 181, 84)"});
+			$(".sv-btn").css({"background":"rgb(120, 176, 87)"})
+		});
+	</script>
+		
+	</body>
+</html>

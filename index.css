@@ -1,0 +1,225 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,body
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: arial;
+}
+
+
+.container1
+{
+	width: 200px;
+	height: 200px;
+	color: #fff;
+	background: linear-gradient(rgb(248, 127, 72),rgb(230, 104, 46),rgb(218, 92, 33));
+	position: relative;
+	border-radius: 7px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+.header
+{
+	/*background: red;*/
+	width: 100%;
+	height: 48px;
+	position: relative;
+}
+
+.header-txt
+{
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	color: rgb(251, 155, 107);
+
+}
+
+.center
+{
+	width: 40%;
+	height: 80px;
+	border-radius: 100%;
+	/*background: red;*/
+	filter: blur(0.5px);
+	text-align: center;
+	top: 24%;
+	position: absolute;
+	margin-top: -8px;
+}
+
+
+img
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+.bar
+{
+	width: 90%;
+	height: 20px;
+	/*background: red;*/
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 65%;
+	margin: 0px 8px 0 9px;
+}
+
+.circle
+{
+	width: 17px;
+	height: 17px;
+	background: #fff;
+	position: absolute;
+	margin-left: -4px;
+	border-radius: 100%;
+	z-index: 999;
+	cursor: pointer;
+}
+
+
+.box1
+{
+	width: 25%;
+	height: 8px;
+	background: rgb(232, 136, 86);
+	border-radius: 5px 0 0px 5px;
+}
+
+.box2
+{
+	width: 25%;
+	height: 10px;
+	background: rgb(232, 136, 86);
+	/*border-right: 1px solid #fff;*/
+	margin-top: -0px;
+}
+
+.box3
+{
+	width: 25%;
+	height: 12px;
+	background: rgb(232, 136, 86);
+	/*border-right: 1px solid #fff;*/
+	margin-top: -0px;
+}
+
+.box4
+{
+	width: 25%;
+	height: 14px;
+	background: rgb(232, 136, 86);
+	border-radius: 0 10px 10px 0;
+	/*border-right: 1px solid #fff;*/
+}
+
+.point
+{
+	cursor: pointer;
+}
+
+.point1
+{
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border-radius: 100%;
+	background: rgb(230, 104, 46);
+	/*left: 24%;*/
+}
+
+
+.point2
+{
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	border-radius: 100%;
+	background: rgb(230, 104, 46);
+	left: 24%;
+}
+
+
+.point3
+{
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	background: rgb(230, 104, 46);
+	left: 48%;
+}
+
+.point4
+{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: rgb(230, 104, 46);
+	left: 72%;
+}
+
+.point5
+{
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	border-radius: 100%;
+	background: rgb(230, 104, 46);
+	left: 94%;
+}
+
+.footer
+{
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 3px 8px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.text
+{
+	font-size: 14px;
+}
+
+span
+{
+	color: rgb(245, 152, 102);
+	font-weight: bold;
+	position: absolute;
+	bottom: 30%;
+	margin-left: 5px;
+	/*background: red;*/
+}
+
+.sv-btn
+{
+	background: rgb(218, 92, 33);
+	padding: 3px 5px;
+	border-radius: 10px;
+	font-size: 14px;
+	cursor: pointer;
+	font-weight: bold;
+}
